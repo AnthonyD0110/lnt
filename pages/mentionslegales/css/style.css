@@ -1,0 +1,316 @@
+/* Body */
+
+body {
+    background: url("../../../img/background.png") fixed;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+	margin:0px;
+}
+
+/* Header */
+
+#header {
+    color: #ffffff;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    background: url("../../../img/header.png") left 40px top 20px no-repeat #000000c5;
+}
+
+#header h1 {
+    font-size: 20px;
+    display: block;
+    text-align: center;
+	width:450px;
+	position:relative;
+	margin: auto;
+}
+
+/* Menu */
+
+#menu {
+    background: #292929cb;
+    width: 650px;
+    height: 29px;
+    position: relative;
+    bottom: 55px;
+    margin:auto;
+    font-size: 16px;
+    text-transform: uppercase;
+    border-radius: 10px;
+}
+
+#menu ul {
+    position: relative;
+    right:15px;
+    top:5px;
+}
+
+#menu ul li {
+    list-style-type: none;
+    bottom:400px;
+	float: left;
+	padding-left:5px;
+	padding-right:5px;
+}
+
+#menu ul li a {
+    text-decoration: none;
+    color: white;
+}
+
+#menu ul li a:hover{
+    background: #265aa0;
+	padding-top:5px;
+	padding-bottom:5px;
+	padding-left:5px;
+	padding-right:5px;
+}
+
+/* Newsletter */
+
+#newsletter {
+	background: #3b3b3bcb;
+	color: white;
+	width:220px;
+	text-align:center;
+	position:relative;
+	left:-500px;
+	padding-top:5px;
+	margin: auto;
+}
+
+#newsletter h2 {
+    font-size: 20px;
+	display:block;
+}
+
+#newsletter p {
+    font-size: 12px;
+	text-align:justify;
+	position:relative;
+	left:20px;
+	padding-bottom:10px;
+	width:160px;
+}
+
+#newsletter #email {
+	height:25px;
+	width:180px;
+}
+
+#newsletter #submit {
+	height:25px;
+	width:180px;
+	margin-top:13px;
+	margin-bottom:25px;
+	background:#1443a2;
+	color:white;
+	font-size:18px;
+	font-weight:bold;
+}
+
+/* Contact */
+
+#contact {
+	background: #3b3b3bcb;
+	color: white;
+	width:220px;
+	text-align:center;
+	position:relative;
+	left:500px;
+	top:-216px;
+	padding-top:5px;
+	padding-bottom: 20px;
+	margin: auto;
+}
+
+#contact h2 {
+    font-size: 20px;
+	display:block;
+}
+
+#contact #facebook a {
+	display:block;
+	background:url("../../../img/fb.png") left 0px top -2px no-repeat #4267b2;
+	height:25px;
+	width:170px;
+	text-decoration:none;
+	color:white;
+	position:relative;
+	left:25px;
+	box-shadow: 5px 5px 10px black;
+}
+
+#contact #twitter a {
+	display:block;
+	background:url("../../../img/tw.png") left 2px top 2px no-repeat #36b9ff;
+	height:25px;
+	width:170px;
+	text-decoration:none;
+	color:white;
+	position:relative;
+	left:25px;
+	box-shadow: 5px 5px 10px black;
+}
+
+#contact #mail a {
+	display:block;
+	background:url("../../../img/mail.png") left 2px top 1px no-repeat #d75d03;
+	height:25px;
+	width:170px;
+	text-decoration:none;
+	color:white;
+	position:relative;
+	left:25px;
+	box-shadow: 5px 5px 10px black;
+}
+
+/* Article */
+
+#article {
+	background:#131313f5;
+	position:relative;
+	bottom:476px;
+	margin:auto;
+	width:730px;
+	height:auto;
+	color:white;
+	margin-bottom:-476px;
+	padding-bottom:20px;
+}
+
+#article h2 {
+	text-align: center;
+	font-size:20px;
+	padding-top:5px;
+	display:block;
+	color:rgb(202, 158, 48);
+}
+
+#article p {
+	text-align: justify;
+	padding-left:40px;
+	padding-right:40px;
+}
+
+/* Footer */
+
+#footer {
+	position:relative;
+	background:#000000c5;
+	height:31px;
+}
+
+#footer span {
+	position:relative;
+	left:280px;
+	top:5px;
+}
+
+#footer span a {
+	text-decoration:none;
+	color: white;
+	font-size:13px;
+	font-weight:bold;
+	padding-left: 20px;
+}
+
+#mailresponsive {
+	display: none;
+}
+
+@media only screen
+ and (min-device-width : 900px)
+ and (max-device-width : 1400px)
+ and (orientation : landscape) {
+
+    /* Body */
+
+	 body {
+		 background: url("../../../img/background2.jpg") fixed;
+		 font-family:Georgia, 'Times New Roman', Times, serif;
+	 }
+
+	 /* Header */
+
+	 #header {
+		 height: 100px;
+		 background: url("../../../img/header.png") left 40px top 20px no-repeat #eba474b0;
+		 border-bottom: solid 2px black;
+	 }
+
+	 #header h1 {
+		 color: black;
+		 border: solid 1px black;
+		 border-radius: 5px;
+		 background: rgb(206, 128, 72);
+		 padding: 7px;
+
+	 }
+
+	 /* Contact */
+
+	 #contact {
+		 display: none;
+	 }
+
+	 /* Newsletter */
+
+	 #newsletter {
+		 display: none;
+	 }
+
+	 /* Article */
+
+	 #article {
+		 bottom: 60px;
+		 margin-bottom: -60px;
+		 background: #eba474b0;
+		 color: black;
+	 }
+
+	 #article h2 {
+		 color: rgb(28, 73, 110);
+	 }
+
+	 /* Menu */
+
+	 #menu {
+		 border-radius: 0px;
+		 height: 40px;
+		 bottom: 70px;
+		 background: #ffa551;
+		 border: dashed 2px black;
+	 }
+
+	 #menu ul {
+		 top: -5px;
+		 width: 800px;
+	 }
+
+	 #menu ul li {
+		 padding-right: 10px;
+	 }
+
+	 #menu ul li a {
+		 color: black;
+	 }
+
+	 #menu ul li a:hover{
+		 background: rgb(202, 112, 70);
+	 }
+
+	 /* Footer */
+
+	 #footer {
+		background: #eba474b0;
+		border-top: 2px solid black;
+	 }
+
+	 #footer span a {
+		 color: black;
+	 }
+
+	 #mailresponsive {
+		display:inline;
+	}
+ }
